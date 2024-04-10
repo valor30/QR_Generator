@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/melogo.png" type="image/x-icon">
+    <title>QR Code Generator by Apratim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="user-input-section">
+    <section class="heading">
+      <div class="title">QRcodes</div>
+      <div class="sub-title">Generate QRCodes </div>
+    </section>
+    <section class="user-input">
+      <input type="text" placeholder="Paste your URL or Type anything..." name="input_text" id="input_text" autocomplete="off">
+      <button class="button" type="submit">Generate QR</button>
+    </section>
+  </div>
+  <div class="qr-code-container">
+    <div class="qr-code"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
