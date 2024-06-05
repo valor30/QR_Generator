@@ -4,3 +4,5 @@ QR Generator is a web application that allows users to generate QR codes. The us
 
 # QR-generator-ui Preview
 
+![Preview of QR Generator UI](images/preview.png)
+
