@@ -51,6 +51,8 @@ function generate(user_input) {
   }
 }
 
-generate({
+generate(
+  {
   value: "https://github.com/valor30"
-});
+}
+);
